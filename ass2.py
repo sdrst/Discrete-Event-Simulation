@@ -1,5 +1,4 @@
-#Sam Durst, sd922
-#Assignment 2
+#Sam Durst
 #24/09/18
 
 import copy #Arrays of objects in python are passed as reference not copy so we must copy
