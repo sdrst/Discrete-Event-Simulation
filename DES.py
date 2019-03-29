@@ -33,8 +33,8 @@ def main():
     while sim.heap[0].event_type != 3: #when the event type hits 3 there are no events left in queue
 
 
-        total_wait1 += sim.q1.size()*(sim.heap[0].event_time - sim.time) #This formula generates average queue length as
-        total_wait2 += sim.q2.size()*(sim.heap[0].event_time - sim.time) #told by Koren on the discussion board on sols
+        total_wait1 += sim.q1.size()*(sim.heap[0].event_time - sim.time) #This formula generates average queue length
+        total_wait2 += sim.q2.size()*(sim.heap[0].event_time - sim.time)
 
         if sim.heap[0].event_type == 0: #if 0 then arrival event
             sim.arrive()
