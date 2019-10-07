@@ -316,7 +316,7 @@ class Server:
     def isBusy(self):
         return self.busy == True
 
-def siftup(Heap, i): #Siftup from week 3 lab
+def siftup(Heap, i):
     while i > 0:
         p = (i-1)//2
 
@@ -328,7 +328,7 @@ def siftup(Heap, i): #Siftup from week 3 lab
         siftup(Heap,i)
     return Heap
 
-def siftdown(Heap, i): #Siftdown from week 3 lab
+def siftdown(Heap, i):
     end = len(Heap)-1
     while True:
         child = i * 2 + 1
