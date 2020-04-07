@@ -1,1 +1,1 @@
-Discrete, heap based simulation with a complexity of log n per event.
+Discrete, heap based simulation with a complexity of O(nlogn).
