@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discrete-event-simulation"
+version = "1.0.0"
+description = "Heap-based discrete-event simulation of a two-stage tandem queueing system"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Sam Durst" }]
+requires-python = ">=3.8"
+
+[project.scripts]
+des = "des.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
